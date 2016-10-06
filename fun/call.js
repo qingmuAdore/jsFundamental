@@ -14,4 +14,4 @@ var cat = new Cat();
 
 //通过call或apply方法，将原本属于Animal对象的eat()方法交给对象cat来使用了。     
 animal.eat.call(cat, "fish");
-animal.eat.apply(cat, ['fish']);  
+animal.eat.apply(cat, ['fish']);
