@@ -1,3 +1,8 @@
+/**
+ * Class.prototype 与 instance.__proto__
+ * 
+ * __proto__ 与 Class.prototype 指向相同内存
+ */
 var Person = function () {
     this.name = 'name';
     this.show = function () {
@@ -29,8 +34,14 @@ person2.say();
 person2.show();
 person2.info();
 
-console.log('-------------------------------------');
-var info = {};
-// console.log(info.prototype);
-var n = 32;
-console.log(n);
+/*
+
+say
+name
+info
+-------------------------------------
+say
+name
+info
+
+*/
