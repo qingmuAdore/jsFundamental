@@ -1,7 +1,7 @@
 /**
  * Class.prototype 与 instance.__proto__
  * 
- * __proto__ 与 Class.prototype 指向相同内存
+ * __proto__ 与 Class.prototype 指向相同
  */
 var Person = function () {
     this.name = 'name';
